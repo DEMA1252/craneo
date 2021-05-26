@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+*{
+    box-sizing:border-box ;
+}
+body {
+  font-family:'Ubuntu',sans-serif; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin:0;
+}
+ 
+.bg {
+  background:url('https://64.media.tumblr.com/fc660510fcb362f44ccb97937a346c69/51ea9d979e66dd7c-d9/s540x810/594457698ed66b80ffdb0c58fe06d850c9896bc0.jpg')
+  no-repeat center center/cover;
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  width: calc(100vw + 60px);
+  height: calc(100vh + 60px);
+  z-index: -1;
+  filter: blur(0px)
+}
+
+.loading-text{
+  font-size: 50px;
+  color: #fff;
+}
